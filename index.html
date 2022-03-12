@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,16 @@
 </head>
 <body>
     <p>This page displays a random image when the button below is clicked. </p>
+    
+    <form class="userSelectImage"> 
+        <select name=" " id="images"> <option value="0">image1</option>
+            <option value="1">image2</option>
+            <option value="2">image3</option>
+        </select></form>
     <button onclick="displayImage()">displayImage </button>
-    <div id="imageId"> </div>
+   
+    <img src="http://farm4.staticflickr.com/3691/11268502654_f28f05966c_m.jpg" id ="picha" class="">
+    
 
 
     <script src="main.js">  </script>
